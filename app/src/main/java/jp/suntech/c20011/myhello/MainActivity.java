@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                     //入力された名前文字列を取得
                     String inputStr = input.getText().toString();
                     //メッセージの表示
-                    output.setText(inputStr + "さん、こんにちは！");
+                    output.setText(inputStr);
                 }
 
                 //クリアボタンの時
